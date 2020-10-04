@@ -20,7 +20,9 @@ The game roms are in the [roms](roms/) folder.
 
 ## Training the models for interactive fiction games
 1. Prepare and pre-process the glove word embeddings.
+
 1.1 Download the 100d [GLoVe word embeddings](https://nlp.stanford.edu/projects/glove/) and copy the file to the [agents/glove](agents/glove) folder. 
+
 1.2 Pre-process the glove word embeddings; run:
 ```
 python glove_utils.py
