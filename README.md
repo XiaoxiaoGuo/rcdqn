@@ -33,7 +33,6 @@ or download the processed embeddings from [here](https://ibm.box.com/s/3k2akbk4s
 ```
 python train.py --batch_size 64 --env_id "zork1.z5"
 ```
-The training logging information and models will be saved in a folder named logs.
 
 
 ## License
