@@ -100,13 +100,7 @@ class BiDAF(nn.Module):
         end_output = torch.bmm(
             end_mapping.view(bsz * ques_num, -1, cont_len),
             sp_output[:, :, :self.hidden_dim])
-        # else:
-        #     start_output = torch.bmm(start_mapping
-        #                              .view(bsz * ques_num, -1, cont_len),
-        #                              output)
-        #     end_output = torch.bmm(end_mapping
-        #                            .view(bsz * ques_num, -1, cont_len),
-        #                            output)
+        
         sp_output = torch.cat([start_output, end_output], dim=-1)
         sp_output_t = self.linear_sp(sp_output)
         return sp_output_t.view(bsz, ques_num)
