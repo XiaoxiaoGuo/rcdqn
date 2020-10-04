@@ -77,9 +77,7 @@ def get_rl_args():
     parser.add_argument('--recent_history_length', default=100, type=int)
     parser.add_argument('--no_cuda', action='store_true')
     parser.add_argument('--grad_clip', default=10.0, type=float)
-
-    # ablative study
-    parser.add_argument('--history_window', default=1, type=int)
+    parser.add_argument('--history_window', default=2, type=int)
 
     args = parser.parse_args()
 
