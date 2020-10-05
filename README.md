@@ -29,7 +29,7 @@ python glove_utils.py
 ``` 
 or download the processed embeddings from [here](https://ibm.box.com/s/3k2akbk4svnr1fczgjnllk9j1iyjauya).  
 
-2. Train the models for interactive fiction games. For example, to train on the game zork1, run:
+2. Train the models for interactive fiction games. For example, to train on the game Zork1, run:
 ```
 python train.py --batch_size 64 --env_id "zork1.z5"
 ```
