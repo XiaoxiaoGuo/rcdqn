@@ -1,7 +1,7 @@
 # Multi-Passage Reading Comprehension Deep Q-Network
 
 ## About this repository
-This repository contains the source code of the EMNLP 2020 paper Interactive Fiction Game Playing as Multi-Paragraph Reading Comprehension with Reinforcement Learning.
+This repository contains the source code of the EMNLP 2020 paper [Interactive Fiction Game Playing as Multi-Paragraph Reading Comprehension with Reinforcement Learning](https://arxiv.org/abs/2010.02386).
 
 ## Dependencies
 To get started with the framework, install the following dependencies:
